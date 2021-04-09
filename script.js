@@ -29,8 +29,8 @@ function insertNewRecord(data) {
   cell3 = newRow.insertCell(2);
   cell3.innerHTML = data.content;
   cell3 = newRow.insertCell(3);
-  cell3.innerHTML = `<a onClick="onEdit(this)">Edit</a>
-                     <a onClick="onDelete(this)">Delete</a>`;
+  cell3.innerHTML = `<a onClick="onEdit(this)">수정</a>
+                     <a onClick="onDelete(this)">삭제</a>`;
 }
 
 function resetForm() {
